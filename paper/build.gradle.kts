@@ -1,13 +1,5 @@
 plugins {
-	`java-library`
-	id("net.civmc.civgradle.plugin")
-	id("io.papermc.paperweight.userdev") version "1.3.1"
-}
-
-civGradle {
-	paper {
-		pluginName = "WorldBorder"
-	}
+	id("io.papermc.paperweight.userdev") version "1.3.8"
 }
 
 dependencies {
